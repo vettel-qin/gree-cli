@@ -4,10 +4,15 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-devDependencies:
-  lerna:
-    specifier: ^8.0.2
-    version: 8.0.2
+importers:
+
+  .:
+    devDependencies:
+      lerna:
+        specifier: ^8.0.2
+        version: 8.0.2
+
+  packages/gree-cli: {}
 
 packages:
 
