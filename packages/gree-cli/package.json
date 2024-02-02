@@ -1,0 +1,19 @@
+{
+  "name": "gree-cli",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "vettel",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/gree-cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/gree-cli.test.js"
+  }
+}
